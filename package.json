@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "webpack",
     "watch-build": "webpack --watch"
@@ -19,6 +20,11 @@
   },
   "homepage": "https://github.com/Joseph-Burke/Restaurant#readme",
   "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "css-loader": "^5.0.1",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.4.0",
     "webpack-cli": "^4.2.0"
   }
