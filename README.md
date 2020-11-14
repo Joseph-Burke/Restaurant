@@ -33,11 +33,13 @@ To set this project up locally, follow these simple instructions:
 
 `git clone git@github.com:Joseph-Burke/Restaurant.git`
 
-3. The project's dependencies are managed by npm. To install them, enter the following line of code in the Terminal.
+3. Now that the repository has been cloned, navigate inside it using `cd Restaurant`.
+
+4. The project's dependencies are managed by npm. To install them, enter the following line of code in the Terminal.
 
 `npm install`
 
-4. Congratulations! All necessary files have been installed. To view the website, just open 'dist/index.html' in a browser of your choosing.
+5. Congratulations! All necessary files have been installed. To view the website, just open 'dist/index.html' in a browser of your choosing.
 
 ## Author
 
