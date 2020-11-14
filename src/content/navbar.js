@@ -19,7 +19,7 @@ function generateAccountContainer() {
 
   const button = document.createElement('button');
   button.classList.add('btn', 'btn-primary');
-  button.textContent = 'Haz tu reservación';
+  button.textContent = 'Hacer una reservación';
 
   logoContainer.appendChild(button);
 
