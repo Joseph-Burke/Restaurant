@@ -2,7 +2,8 @@
 
 > This project is a single-page website for a fictional website called "Amigos", which was built as part of Microverse's JavaScript module.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshots/home_screenshot.png)
+![screenshot](./screenshots/menu_screenshot.png)
 
 The purpose of this project is demonstrate competence in using npm and webpack, as well as further developing my skills in DOM manipulation and writing clean and modular JS code.
 
