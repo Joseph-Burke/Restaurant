@@ -17,7 +17,7 @@ function generateImageContainer() {
   imageContainer.classList.add("image-container");
 
   let image = document.createElement("img");
-  image.src = "../src/plate.jpeg";
+  image.src = "../src/images/plate.jpeg";
   imageContainer.appendChild(image);
 
   return imageContainer;

@@ -23,7 +23,7 @@ function generateLogoContainer() {
   logoContainer.classList.add("logo-container", "nav-bar-section");
 
   let image = document.createElement("img");
-  image.src = "../src/restaurant_logo.png";
+  image.src = "../src/images/restaurant_logo.png";
   logoContainer.appendChild(image);
 
   return logoContainer;

@@ -28,7 +28,7 @@ export default function generateContact() {
   address.innerText = 'Dirección: 472 Calle de la República, Cuenca, Ecuador';
   
   let map = document.createElement('img');
-  map.src = '../src/map.jpeg';
+  map.src = '../src/images/map.jpeg';
   
   text.appendChild(lineBreak1);
   text.appendChild(lineBreak2);
