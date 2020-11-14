@@ -1,18 +1,18 @@
 import './index.scss';
-import { 
-  generateNavBar,
-  generateLandingPageSection,
- } from "./content_generators.js";
+import generateNavBar from "./content/navbar";
+import generateHome from './content/home';
+import generateContact from './content/contact';
+import generateMenu from './content/menu';
 
 var content = document.getElementById('content');
 var testDiv = document.createElement('div');
 
-function insertContent () {
+function insertInitialContent () {
   let navBar = generateNavBar();
-  let landingPageSection = generateLandingPageSection();
+  let landingPageSection = generateHome();
 
   content.appendChild(navBar);
   content.appendChild(landingPageSection);
-}
+};
 
-insertContent();
+insertInitialContent();
