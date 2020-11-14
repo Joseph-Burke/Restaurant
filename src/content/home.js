@@ -1,6 +1,6 @@
 export default function generateHome() {
   var homeSection = document.createElement("section");
-  homeSection.classList.add("landing-page-section", "container-fluid");
+  homeSection.classList.add("landing-page-section", "home-tab", "container-fluid");
   homeSection.id = 'landing-page-section';
   
   const imageContainer = generateImageContainer();
