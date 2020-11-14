@@ -7,7 +7,7 @@ const dishes = [
   },
   {
     name: "Ensalada Temporada y Local",
-    description: "Aquí a Amigos, creemos fuerzamente en nuestra obligación de hacer bueno durante nuestro tiempo sobre el planeta. Por eso, estámos todos muy orgullos a offrir esta ensalada temporada y local que hace bueno para la salud de nuestros clientes, nuestra comunidad local, y el planeta.",
+    description: "Aquí a Amigos, creemos fuerzamente en nuestra obligación de hacer bueno durante nuestro tiempo sobre el planeta. Por eso, estámos todos muy orgullosos a offrir esta ensalada temporada y local que hace bueno para la salud de nuestros clientes, nuestra comunidad local, y el planeta.",
     "image URL": "../src/salad.jpg"
   },
   {

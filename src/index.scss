@@ -132,6 +132,16 @@
       .card-title {
         font-size: 2.5rem;
       }
+
+      .card-text {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          max-height: 300px;
+          align-self: center;
+        }
+      }
     }
   }
 }
