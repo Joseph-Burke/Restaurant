@@ -1,4 +1,4 @@
-function generateImageContainer() {
+const generateImageContainer = () => {
   const imageContainer = document.createElement('div');
   imageContainer.classList.add('image-container');
 
@@ -9,7 +9,7 @@ function generateImageContainer() {
   return imageContainer;
 }
 
-function generateTextContainer() {
+const generateTextContainer = () => {
   const textContainer = document.createElement('div');
   textContainer.classList.add('text-container');
 
@@ -32,7 +32,7 @@ function generateTextContainer() {
   return textContainer;
 }
 
-export default function generateHome() {
+export default () => {
   const homeSection = document.createElement('section');
   homeSection.classList.add('landing-page-section', 'home-tab', 'container-fluid');
   homeSection.id = 'landing-page-section';

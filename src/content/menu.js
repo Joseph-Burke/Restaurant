@@ -17,7 +17,7 @@ const dishes = [
   },
 ];
 
-function populateMenu(menuSection, dishesArray) {
+const populateMenu = (menuSection, dishesArray) => {
   for (let i = 0; i < dishesArray.length; i += 1) {
     const card = document.createElement('div');
     card.classList.add('card');
@@ -42,7 +42,7 @@ function populateMenu(menuSection, dishesArray) {
   }
 }
 
-export default function generateMenu() {
+export default () => {
   const menuSection = document.createElement('section');
   menuSection.classList.add(
     'landing-page-section',

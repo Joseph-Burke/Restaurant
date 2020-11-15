@@ -2,7 +2,7 @@ import generateHome from './home';
 import generateContact from './contact';
 import generateMenu from './menu';
 
-function generateLogoContainer() {
+const generateLogoContainer = () => {
   const logoContainer = document.createElement('div');
   logoContainer.classList.add('logo-container', 'nav-bar-section');
 
@@ -13,7 +13,7 @@ function generateLogoContainer() {
   return logoContainer;
 }
 
-function generateAccountContainer() {
+const generateAccountContainer = () => {
   const logoContainer = document.createElement('div');
   logoContainer.classList.add('account-container', 'nav-bar-section');
 
@@ -26,30 +26,30 @@ function generateAccountContainer() {
   return logoContainer;
 }
 
-function removeCurrentView() {
+const removeCurrentView = () => {
   const currentSection = document.getElementById('landing-page-section');
   content.removeChild(currentSection);
 }
 
-function displayHomeView() {
+const displayHomeView = () => {
   removeCurrentView();
   const home = generateHome();
   content.appendChild(home);
 }
 
-function displayContactView() {
+const displayContactView = () => {
   removeCurrentView();
   const contact = generateContact();
   content.appendChild(contact);
 }
 
-function displayMenuView() {
+const displayMenuView = () => {
   removeCurrentView();
   const menu = generateMenu();
   content.appendChild(menu);
 }
 
-function generateLinksContainer() {
+const generateLinksContainer = () => {
   const logoContainer = document.createElement('div');
   logoContainer.classList.add('links-container', 'nav-bar-section');
 
@@ -79,7 +79,7 @@ function generateLinksContainer() {
   return logoContainer;
 }
 
-export default function generateNavBar() {
+export default () => {
   const navBar = document.createElement('nav');
 
   navBar.classList.add('nav-bar');

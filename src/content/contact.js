@@ -1,4 +1,4 @@
-export default function generateContact() {
+export default () => {
   const contactSection = document.createElement('section');
 
   contactSection.classList.add('landing-page-section', 'contact-tab', 'container-fluid');
