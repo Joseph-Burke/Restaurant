@@ -1,0 +1,147 @@
+// Import bootstrap AFTER any desired changes to variables.
+@import '~bootstrap';
+
+@mixin padding-margin-reset {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin list-style-reset {
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    display: flex;
+    padding: 1rem 0;
+
+    .nav-bar-section {
+      flex: 1;
+    }
+
+    .logo-container {
+      img {
+        max-height: 75px;
+        margin-left: 4rem;
+      }
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      ul {
+        @include padding-margin-reset;
+        @include list-style-reset;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+          margin: 0 2rem;
+        }
+      }
+    }
+
+    .account-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      .btn {
+        border-radius: 2rem 2rem 2rem 2rem;
+        padding: 0.7rem 3rem;
+        margin-right: 4rem;
+      }
+    }
+  }
+
+  .home-tab {
+    display: flex;
+
+    .image-container,
+    .text-container {
+      flex: 50% 0 0;
+    }
+
+    .image-container {
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        width: 40vw;
+        margin: 50px;
+      }
+    }
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .title {
+        margin-top: 150px;
+        font-size: 4rem;
+      }
+
+      .sub-title {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: rgb(100, 100, 100);
+      }
+
+      .explore-button {
+        padding: 1rem 2.5rem;
+        margin-top: 100px;
+        border-radius: 2rem 2rem 2rem 2rem;
+      }
+    }
+  }
+
+  .menu-tab {
+    padding: 0 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 50px;
+
+    .card {
+      align-items: center;
+      border: 0.5px solid $gray-500;
+
+      .card-title {
+        margin-top: 20px;
+        font-size: 1.5rem;
+      }
+
+      .card-image {
+        max-width: 100%;
+        max-height: 300px;
+      }
+    }
+  }
+
+  .contact-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .card {
+      max-width: 600px;
+
+      .card-title {
+        font-size: 2.5rem;
+      }
+
+      .card-text {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          max-height: 300px;
+          align-self: center;
+        }
+      }
+    }
+  }
+}
